@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+header{height: 80px;
+    margin: auto;
+    background-color: #f19d80;
+    margin-top:0px;
+    color: #e85b2c;
+}
+nav{height: 30px;
+    margin: auto;
+    border-bottom: solid 3px #e85b2c;
+    background-color: #e85b2c;
+    position: sticky;/*w3schools*/
+    top: 0;/*w3schools*/
+}
+main{height:max-content;
+    margin: auto;
+    background-color: #f19d80;
+}
+footer{height:270px;
+    margin: auto;
+    background-color: #e85b2c;
+    border-top: solid 3px #e85b2c;
+    color: #f19d80;
+}
+body{background-color: 	#f19d80;
+  font-family: "anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #e85b2c;
+    
+}
+section{border: solid 3px #e85b2c;
+    width: 90%;
+    margin: auto;
+}
+.nav_list{list-style-type: none;/*w3schools*/
+    display: flex;/*w3schools*/
+    padding: 0;
+    margin: 0;
+
+}
+a{padding:5.5px 20px 5.5px 20px;
+    display: block;/*w3schools*/
+    color: #f19d80;
+    text-decoration: none;
+}
+.nav:hover{background-color: #ed7c56}/*w3schools*/
+.nav:active{background-color: #e85b2c}/*w3schools*/
+.active{background-color: #e86a40}/*w3schools*/
+.A1{font-size: 60px;
+    margin-top: 0px
+}
+p{margin: 0px;
+margin-left: 5px
+}
+h3,h4,h2{margin: 3px
+
+}
+.margin{margin-bottom: 3px;
+    margin-top: 0px
+}
+#home{height: 500px;}
+img{width: 25%;
+    display: inline-block;
+    margin: 10px;
+    border: solid 2px;
+    border-radius: 5px;
+    box-shadow: 8px 8px
+}
+#copyright{transform: translateY(120px);
+}
+#prusa{float: right;
+    width: 25%;
+    transform: translateX(-20px)
+}
+iframe{display: block;
+    border: solid 3px #e85b2c;
+    width: 90%;
+    margin: 10px auto 10px auto;
+    box-shadow: 4px 4px;
+    border-radius: 10px
+}
+#credits{display: block;
+    float: right;
+    transform: translateY(10px);
+    position: relative
+}
+ul{list-style-type: none;
+    padding: 0px;
+}
